@@ -1,0 +1,28 @@
+.card{
+  border-radius: 0;
+  cursor:pointer;
+  box-shadow: 4px 4px 4px #EEE;
+}
+
+.card,
+.card-footer{
+  background-color:#FFFFA5;
+  border:none;
+}
+
+.card-footer{
+  text-align:right;
+}
+
+.card.completed,
+.card.completed .card-footer,
+.card.completed i{
+  background-color:#eee;
+  color:#ccc;
+
+}
+
+i{
+  color:red;
+  padding-right:.5rem;
+}
